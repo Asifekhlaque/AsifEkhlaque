@@ -10,7 +10,7 @@ const About = () => {
           We Build <span className="text-orange-500">Digital Experiences</span>
         </h1>
         <p className="text-gray-300 text-lg md:text-xl leading-relaxed">
-          Not just websites. Not just apps.  
+          Not just websites. Not just apps.
           I build digital experiences that connect people to the world around them.
         </p>
       </div>
@@ -22,7 +22,7 @@ const About = () => {
           <p className="text-gray-300 leading-relaxed mb-4">
             I am Asif Ekhlaque, a passionate developer with a strong focus on
             creating visually stunning and user-friendly digital experiences.
-            I started my journey as a volnteer in 2023 from Bhumi. Then I joined GDG Patna as a core team member.<br/>And now I am working as a freelance developer.
+            I started my journey as a volnteer in 2023 from Bhumi. Then I joined GDG Patna as a core team member.<br />And now I am working as a freelance developer.
           </p>
         </div>
 
@@ -92,69 +92,87 @@ const About = () => {
         ))}
       </div>
       <div className="bg-gray-900 p-6 rounded-2xl">
-  <h1 className="text-4xl font-bold mb-10 text-white">My Education</h1>
+        <h1 className="text-4xl font-bold mb-10 text-white">My Education</h1>
 
-  <div className="grid md:grid-cols-2 gap-8">
+        <div className="grid md:grid-cols-2 gap-8">
 
-    {/* Education Card 1 */}
-    <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
-      <h2 className="text-2xl font-semibold text-orange-600">
-        Masters of Computer Applications (MCA)
-      </h2>
+          {/* Education Card 1 */}
+          <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
+            <h2 className="text-2xl font-semibold text-orange-600">
+              Masters of Computer Applications (MCA)
+            </h2>
 
-      <p className="text-gray-300 mt-2">
-        Amity University, Patna
-      </p>
+            <p className="text-gray-300 mt-2">
+              Amity University, Patna
+            </p>
 
-      <p className="text-gray-400 mt-1">
-        2025 – Present
-      </p>
+            <p className="text-gray-400 mt-1">
+              2025 – Present
+            </p>
 
-      <p className="text-sm text-gray-400 mt-4">
-        Focused on Web Development, Data Structures, DBMS, and Software Engineering.
-      </p>
-    </div>
+            <p className="text-sm text-gray-400 mt-4">
+              Focused on Web Development, Data Structures, DBMS, and Software Engineering.
+            </p>
+          </div>
 
-    {/* Education Card 2 */}
-    <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
-      <h2 className="text-2xl font-semibold text-orange-500">
-        Bachelor of Computer Applications (BCA)
-      </h2>
+          {/* Education Card 2 */}
+          <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
+            <h2 className="text-2xl font-semibold text-orange-500">
+              Bachelor of Computer Applications (BCA)
+            </h2>
 
-      <p className="text-gray-300 mt-2">
-        Aryabhat Knowledge University, Patna
-      </p>
+            <p className="text-gray-300 mt-2">
+              Aryabhat Knowledge University, Patna
+            </p>
 
-      <p className="text-gray-400 mt-1">
-        2022 – 2025
-      </p>
+            <p className="text-gray-400 mt-1">
+              2022 – 2025
+            </p>
 
-      <p className="text-sm text-gray-400 mt-4">
-        Focused on Web Development, Data Structures, DBMS, and Software Engineering.
-      </p>
-    </div>
+            <p className="text-sm text-gray-400 mt-4">
+              Focused on Web Development, Data Structures, DBMS, and Software Engineering.
+            </p>
+          </div>
+
+          <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
+            <h2 className="text-2xl font-semibold text-orange-400">
+              Professional diploma in desktop publishing(PDTP)
+            </h2>
+
+            <p className="text-gray-300 mt-2">
+              New Computer Zone ,Patna
+            </p>
+
+            <p className="text-gray-400 mt-1">
+              2023
+            </p>
+
+            <p className="text-sm text-gray-400 mt-4">
+              Completed Professional diploma in desktop publishing. Photoshop and Illustrator.
+            </p>
+          </div>
 
 
-    <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
-      <h2 className="text-2xl font-semibold text-orange-400">
-        Intermediary and Maticulation
-      </h2>
+          <div className="bg-gray-800 border border-gray-700 rounded-2xl p-6 hover:scale-105 transition-transform duration-300 shadow-lg">
+            <h2 className="text-2xl font-semibold text-orange-300">
+              Intermediary and Maticulation
+            </h2>
 
-      <p className="text-gray-300 mt-2">
-        Kendriya Vidyalaya ,Patna
-      </p>
+            <p className="text-gray-300 mt-2">
+              Kendriya Vidyalaya ,Patna
+            </p>
 
-      <p className="text-gray-400 mt-1">
-        2020 – 2022
-      </p>
+            <p className="text-gray-400 mt-1">
+              2020 – 2022
+            </p>
 
-      <p className="text-sm text-gray-400 mt-4">
-        Completed Intermediate and Maticulation.
-      </p>
-    </div>
+            <p className="text-sm text-gray-400 mt-4">
+              Completed Intermediate and Maticulation.
+            </p>
+          </div>
 
-  </div>
-</div>
+        </div>
+      </div>
 
     </div>
   );

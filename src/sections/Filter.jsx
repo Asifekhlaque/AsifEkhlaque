@@ -49,6 +49,12 @@ const skillsData = [
         description: "I know WordPress and can create, customize, and manage websites using themes, plugins, and page builders.",
         link: "https://react.dev",
     },
+    {
+        title: "Video Editing",
+        category: "Design",
+        description: "I can create and edit videos using VN, Capcut, and other video editing software.",
+        link: "https://figma.com",
+    },
 ];
 
 /* ========================= */
@@ -120,7 +126,7 @@ const Filter = ({ onHomeClick }) => {
                                     title={item.title}
                                     description={item.description}
                                     categories={item.category}
-                                    link={item.link}
+                                    
                                 />
                             ))}
                         </div>

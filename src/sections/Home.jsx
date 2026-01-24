@@ -24,7 +24,7 @@ const Home = ({ onSkillClick }) => {
           </button>
 
           <button className="bg-gray-200 text-[#FF6A00] px-6 py-2.5 rounded-full  hover:border-2 hover:bg-transparent hover:border-[#FF6A00] hover:text-white transition-all duration-200">
-            <a href="https://drive.google.com/file/d/1It33TSZiVv2f8O1yRHaGTvyvbts9L72N/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
+            <a href="https://drive.google.com/file/d/1Cvx_Q_we75pjT3wdcGFuT-WCw0XYx_VX/view?usp=sharing" target="_blank" rel="noopener noreferrer">Download CV</a>
           </button>
         </div>
       </div>
