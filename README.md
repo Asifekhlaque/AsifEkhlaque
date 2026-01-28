@@ -2,8 +2,6 @@
 
 ### Full Stack Developer
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=Asifekhlaque&label=Profile views&color=0e75b6&style=flat" alt="Asifekhlaque" /> </p>
-
 - 💬 Ask me about **React.js, Node.js & Express.js**
 
 - 📫 How to reach me **asifekhlaque33@gmail.com**
